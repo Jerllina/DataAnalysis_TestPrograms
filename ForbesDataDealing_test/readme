@@ -1,0 +1,6 @@
+Reference：https://mp.weixin.qq.com/s?__biz=MzI2NjY5NzI0NA==&mid=2247483983&idx=1&sn=949d01b3917605084e4aed47737b3260&chksm=ea8b6d3cddfce42aa3a5b9b4bfd7c5b71b04ee9f4cc43dab0ebb1dead18897920901d17180c5&scene=21#wechat_redirect  
+要点：
+如果在保存数据之前，print了url地址，前面就会多一个"\n"字符从而获取不了我们需要的数据。
+因此测试完之后，要注释掉不必要的print，以免引起数据导入错误，
+即："No connection adapters were found for '
+http://....html' "  
