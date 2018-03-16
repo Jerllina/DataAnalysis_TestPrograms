@@ -1,18 +1,12 @@
 Python 3.6.1 (v3.6.1:69c0db5, Mar 21 2017, 18:41:36) [MSC v.1900 64 bit (AMD64)] on win32
 Type "copyright", "credits" or "license()" for more information.
->>> 
-from numpy import *
+>>> from numpy import *
 >>> random.rand(4,4)
 array([[ 0.48629054,  0.72860151,  0.32910966,  0.7434583 ],
        [ 0.44889702,  0.27960599,  0.82763973,  0.02583261],
        [ 0.98319337,  0.98712834,  0.17720732,  0.34375602],
        [ 0.96858778,  0.27811621,  0.53159259,  0.96127866]])
 >>> randMat=mat(random.rand(4,4))
->>> randMar.I
-Traceback (most recent call last):
-  File "<pyshell#3>", line 1, in <module>
-    randMar.I
-NameError: name 'randMar' is not defined
 >>> randMat.I
 matrix([[-2.000968  ,  0.81811033,  1.8890594 , -1.18843706],
         [ 2.01503895,  0.7163132 , -1.45745402, -1.28977106],
